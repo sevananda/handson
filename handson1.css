@@ -1,0 +1,102 @@
+body{
+    width: 1000px;
+    height: 2000px;
+    margin: auto;
+}
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    background-color: #333333;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.header h3{
+    font-size: 20pt;
+    width : calc(40%);}
+.first ul{
+    list-style-type: none;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    color: black;
+    font-size: 16pt;
+}
+
+.second{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(169, 169, 169, 0.212);
+    align-items: center;
+    padding: 20px;
+    list-style-type: none;
+}    
+
+.second img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+
+}
+.second h2{
+    font-family: calc(caliber);
+    font-size: calc(30pt);
+    padding:20px;
+}
+.second li{
+    list-style-type: none;
+    font-size: 15pt;
+    padding: auto;
+}
+
+
+.third{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+h2{
+    margin-left: 20px;
+}
+.fourth{
+    display: flex;
+    justify-content:space-around ;
+    text-align: center;
+    font-size: 15pt;
+   }
+.fourth .one{
+    background-color: #dbf3fa;
+    padding: 1px;
+    margin: 10px;
+}
+.fifth .two{
+    background-color: #dbf3fa;
+   
+    margin: 10px;
+   
+}
+.fifth{
+    display: flex;
+    justify-content:space-around ;
+    text-align: center;
+    font-size: 15pt;
+}
+h6{
+    font-size: 12pt;
+    font-weight: lighter;
+    word-break: calc(10px);
+}
+footer{
+    background-color: #131a22;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-bottom: 50px;
+    padding-top: 30px;
+   
+}
